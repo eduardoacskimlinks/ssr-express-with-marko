@@ -1,0 +1,20 @@
+{
+  "name": "ssr-express-with-marko",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eduardoacskimlinks/ssr-express-with-marko.git",
+  "author": "eduardoacskimlinks <eduardo.cardenes@skimlinks.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c"
+  },
+  "devDependencies": {
+    "@marko/express": "2.1.0",
+    "@marko/rollup": "4.0.3",
+    "@rollup/plugin-commonjs": "25.0.0",
+    "@rollup/plugin-node-resolve": "15.0.2",
+    "express": "4.18.2",
+    "rollup": "3.23.0"
+  }
+}
